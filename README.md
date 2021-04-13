@@ -35,5 +35,5 @@ Ege Çam
 
 ## Inspiration & Acknowledgments
 
-* [Mosh's ML with Python Tutorial](https://www.youtube.com/watch?v=7eh4d6sabA0&t=1728s)
-* [Jack Bandy's tutorial on recommendation system](https://towardsdatascience.com/a-simple-song-recommender-system-in-python-tutorial-3e4c111198d6)
+* [Mosh's Tutorial on ML with Python](https://www.youtube.com/watch?v=7eh4d6sabA0&t=1728s)
+* [Jack Bandy's article on recommendation systems](https://towardsdatascience.com/a-simple-song-recommender-system-in-python-tutorial-3e4c111198d6)
