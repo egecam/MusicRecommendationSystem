@@ -1,12 +1,15 @@
 import ratings_module
 import distance_module
 
+
 def en_yakin(isim):  # 'isim' girilen kullanicinin en yakin oldugu kullaniciyi hesaplayan fonksiyon
     kullanici = ratings_module.ratings.loc[isim]
-    en_yakin_distance = float('inf')  # bir kullaniciya en benzer kullanici bulmak her zaman icin imkansiz oldugundan,
+    # bir kullaniciya en benzer kullanici bulmak her zaman icin imkansiz oldugundan,
+    en_yakin_distance = float('inf')
     en_yakin_kullanici = ''
 
-    for diger_kullanici in ratings_module.ratings.itertuples():  # itertuples: index'i birinci eleman olarak ata
+    # itertuples: index'i birinci eleman olarak ata
+    for diger_kullanici in ratings_module.ratings.itertuples():
         if diger_kullanici.Index == isim:
             # 'isim' girilen kullaniciyi kendisiyle kiyaslama, diger kullanicilardan devam et
             continue
